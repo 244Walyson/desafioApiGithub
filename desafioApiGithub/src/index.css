@@ -1,5 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root{
+  --bg-color-primary: #1890FF;
+  --bg-color-secondary: #E6F7FF;
+  --bg-color-tertiary: #D9D9D9;
+  --bg-color-quaternary: #F5F5F5;
+  --bg-color-fifth: #fff;
+
+  --font-color-primary: #fff;
+  --font-color-secondarry: #7E7E7E;
+  --font-color-tertiary: #262626;
+  --font-color-quaternary: #BFBFBF;
+  --font-color-fifth: #1890FF;
+  --font-color-sixth: #737373;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+@media (max-width: 576px){
+  .container{
+    width: 90%;
+  }    
 }

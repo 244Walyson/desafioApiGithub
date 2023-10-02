@@ -1,0 +1,11 @@
+.header-nav{
+    display: flex;
+    align-items: center;
+    height: 62px;
+    width: 100%;
+    background-color: var(--bg-color-primary);
+    color: var(--font-color-primary);
+}
+.header-nav h1{
+    font-size: 24px;
+}

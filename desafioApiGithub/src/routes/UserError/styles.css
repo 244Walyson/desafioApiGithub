@@ -1,0 +1,19 @@
+.user-error{
+    color: var(--font-color-tertiary);
+    font-size: 38px;
+    font-weight: 500;
+}
+@media (max-width: 576px){
+    .user-error{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 420px) {
+    .user-error{
+        font-size: 16px;
+    }
+}

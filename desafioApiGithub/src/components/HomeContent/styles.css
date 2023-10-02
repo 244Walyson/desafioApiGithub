@@ -1,0 +1,15 @@
+.home-content h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+.home-content p{
+    font-size: 24px;
+    color: var(--font-color-secondarry);
+    font-weight: 700;
+}
+.button-start{
+    margin-top: 27px;
+}
+.home-content{
+    margin-top: 27px;
+}
