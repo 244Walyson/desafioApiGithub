@@ -18,3 +18,10 @@
     font-weight: 700;
     padding-right: 5px;
 }
+
+@media (max-width: 576px) {
+    .data-card{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -29,3 +29,21 @@
 .error{
     margin-top: 64px;
 }
+
+@media (max-width: 576px){
+       .perfil-render{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+       .perfil-img{
+        display: flex;
+        place-items: center;
+        justify-content: center;
+        margin: 0;
+        margin-bottom: 20px;
+       }
+       .perfil-informations{
+        margin: 0;
+       }
+}
