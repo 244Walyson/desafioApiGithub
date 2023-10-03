@@ -11,6 +11,10 @@
     font-size: 16px;
     color: var(--font-color-sixth);
 }
+.data-card a{
+    color: var(--font-color-seventh);
+    text-decoration: none;
+}
 #weak-p{
     font-weight: 400;
 }
