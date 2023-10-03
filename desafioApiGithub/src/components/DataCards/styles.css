@@ -25,3 +25,8 @@
         flex-direction: column;
     }
 }
+@media (max-width: 420px) {
+    .data-card p {
+        font-size: 12px;
+    }    
+}
