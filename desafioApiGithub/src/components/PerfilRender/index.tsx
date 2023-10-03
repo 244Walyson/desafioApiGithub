@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import { findUser } from '../../service/GithubService';
 import DataCard from '../DataCards';
 import UserError from '../../routes/UserError';
+import { Link } from 'react-router-dom';
 
 type githubApi = {
     id: number;
